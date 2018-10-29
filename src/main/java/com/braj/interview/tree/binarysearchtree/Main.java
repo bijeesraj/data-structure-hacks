@@ -7,7 +7,7 @@ public class Main {
               /    \
              8      16
               \
-              6
+               6
 
     **/
 
