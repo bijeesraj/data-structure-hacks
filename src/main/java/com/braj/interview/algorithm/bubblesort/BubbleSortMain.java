@@ -8,12 +8,13 @@ public class BubbleSortMain {
         int[] numbers = {1,2,17,22,91,4,32,8,9,3,24,7};
         System.out.println("Length : " + numbers.length);
         numbers = bubbleSort(numbers);
-
-        for (int i = 0; i < numbers.length-1 ; i++) {
+        System.out.println("Length : " + numbers.length);
+        for (int i = 0; i <= (numbers.length-1) ; i++) {
             System.out.println(numbers[i]);
         }
     }
 
+    // Compare each element with immediate next element.
     private static int[] bubbleSort(int[] numbers) {
         int temp;
         for(int i=0; i<numbers.length-1;i++){ // You will need to no n number of iteration
