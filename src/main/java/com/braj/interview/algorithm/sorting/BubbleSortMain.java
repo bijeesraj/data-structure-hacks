@@ -1,9 +1,12 @@
-package com.braj.interview.algorithm.bubblesort;
+package com.braj.interview.algorithm.sorting;
 
 //https://www.youtube.com/watch?v=F13_wsHDIG4
 public class BubbleSortMain {
 
     public static void main(String[] args) {
+
+
+
 
         int[] numbers = {1,2,17,22,91,4,32,8,9,3,24,7};
         System.out.println("Length : " + numbers.length);
