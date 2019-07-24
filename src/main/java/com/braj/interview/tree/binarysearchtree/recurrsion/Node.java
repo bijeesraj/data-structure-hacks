@@ -1,4 +1,4 @@
-package com.braj.interview.tree.binarysearchtree;
+package com.braj.interview.tree.binarysearchtree.recurrsion;
 
 
 //Binary Search Tree implementation
@@ -82,4 +82,12 @@ public class Node {
         System.out.print(" " +data);
     }
 
+    @Override
+    public String toString() {
+        return "Node{" +
+                "left=" + left +
+                ", right=" + right +
+                ", data=" + data +
+                '}';
+    }
 }

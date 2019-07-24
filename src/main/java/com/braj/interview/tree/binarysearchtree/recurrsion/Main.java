@@ -1,4 +1,4 @@
-package com.braj.interview.tree.binarysearchtree;
+package com.braj.interview.tree.binarysearchtree.recurrsion;
 
 public class Main {
 
